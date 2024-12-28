@@ -1,0 +1,88 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+body{
+    background-color: #ececec;
+}
+.cabeçalho{ 
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 70px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{ 
+    font-weight: 500;
+    color: #63739c; 
+    font-size: 27px;
+    flex: 15%; 
+    text-align: center;
+} 
+
+.bt{
+    flex: 85%; 
+    text-align: right;
+    padding-right: 80px;
+} 
+.bt a{
+    font-size: 18px;
+    background-color: #63739c;
+    border-radius: 5px;
+    padding: 10px; 
+    padding-inline: 30px; 
+    color: white;
+    text-decoration: none; 
+} 
+.bt a:hover{
+    background-color: #0c64ac;
+} 
+
+.dados{
+    height: 100;
+    margin-top: 8%;
+    display: block; 
+    text-align: center;
+}
+
+.portal{ 
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+} 
+
+input{ 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+    height: 60px;
+    padding-left: 12px;
+    font-size: 20px; 
+    outline: none;
+    border: none;
+}
+
+.enviar{ 
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 5%;
+    height: 60px;
+    background-color: white; 
+    border: none;
+}
+
+.voz{ 
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 10px;  
+    background-color: white;
+} 
+
